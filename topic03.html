@@ -9,19 +9,22 @@
 {% highlight javascript %}
 $(".dynam" ).attr("fill", "#d00").attr("stroke", "#d00");
 {% endhighlight %}
+fills all dynamics in color red
 
 {% highlight javascript %}
 $(".measure .staff:nth-child(2)" ).attr("fill", "#00e").attr("stroke", "#00e");
 {% endhighlight %}
+fills all measures of 2nd staff in blue
 
 {% highlight javascript %}
 $(".measure .staff:nth-child(4) .staffDef" ).attr("fill", "#0c0").attr("stroke", "#0c0");
 {% endhighlight %}
+fills all staff definition of the 4th staff in green
 
 {% highlight javascript %}
 $(".system .measure:gt(4) .staff:nth-child(4)").attr("fill", "#ccc").attr("stroke", "#ccc");
 {% endhighlight %}
-
+fills all measures from the 5th stroke on in grey
 <p>
    [More information]
 </p>
